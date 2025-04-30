@@ -1,6 +1,7 @@
-'use client';
+"use client";
 
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight } from "lucide-react";
+import { Link } from "react-scroll";
 
 export default function MainPage() {
   return (
@@ -19,39 +20,40 @@ export default function MainPage() {
           </div>
 
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-            Propulsés par l&apos;innovation, nous construirons vos projets avec{' '}
-            <span className="text-blue-600">passion</span> et{' '}
-            <span className="text-purple-600">ambition</span>.
+            Portés par l&apos;innovation, nous construirons vos projets avec{" "}
+            <span className="text-blue-600">passion</span> et{" "}
+            <span className="text-purple-600">engagement</span>.
           </h1>
 
           <p className="mt-6 text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto">
-            On vous proposent des divers services en IT, des services de qualité 
-            et une tarification imbattable pour réaliser vos ambitions numériques.
+            On vous proposent des divers services en IT, des services de qualité
+            et une tarification imbattable pour réaliser vos ambitions
+            numériques.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-primary hover:bg-fourth transition-colors duration-300 shadow-lg hover:shadow-xl">
-              Contacter nous
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </button>
-            <button className="inline-flex items-center justify-center px-6 py-3 border border-gray-300 text-base font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 transition-colors duration-300">
-              Découvrir nos services
-            </button>
+            <Link key={"contactus"} to="contactus" smooth={true} duration={500}>
+              <button className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-primary hover:bg-fourth transition-colors duration-300 shadow-lg hover:shadow-xl">
+                Contacter nous
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </button>
+            </Link>
+            <Link key={"service"} to="service" smooth={true} duration={500}>
+              <button className="inline-flex items-center justify-center px-6 py-3 border border-gray-300 text-base font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 transition-colors duration-300">
+                Découvrir nos services
+              </button>
+            </Link>
           </div>
 
           <div className="mt-12 pt-8 border-t border-gray-200">
-            <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 text-center">
+            <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 text-center">
               <div>
-                <div className="text-2xl font-bold text-gray-900">100+</div>
-                <div className="text-sm text-gray-500">Projets réalisés</div>
+                <div className="text-2xl font-bold text-gray-900">65 000</div>
+                <div className="text-sm text-gray-500">Etudiants</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-gray-900">24/7</div>
-                <div className="text-sm text-gray-500">Support client</div>
-              </div>
-              <div className="col-span-2 sm:col-span-1">
-                <div className="text-2xl font-bold text-gray-900">98%</div>
-                <div className="text-sm text-gray-500">Clients satisfaits</div>
+                <div className="text-2xl font-bold text-gray-900">15</div>
+                <div className="text-sm text-gray-500">Membres MPPS</div>
               </div>
             </div>
           </div>

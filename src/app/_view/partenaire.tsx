@@ -8,13 +8,9 @@ import "slick-carousel/slick/slick-theme.css";
 export default function Partenaire() {
   const partners = [
     { name: 'Afia', path: '/assets/afia.png' },
-    { name: 'Coca Cola', path: '/assets/cocacola.png' },
     { name: 'Paris Saclay', path: '/assets/paris_saclay.png' },
-    { name: 'SAP', path: '/assets/sap.png' },
     { name: 'Afia', path: '/assets/afia.png' },
-    { name: 'Coca Cola', path: '/assets/cocacola.png' },
     { name: 'Paris Saclay', path: '/assets/paris_saclay.png' },
-    { name: 'SAP', path: '/assets/sap.png' },
   ];
 
   const settings = {

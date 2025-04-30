@@ -35,9 +35,8 @@ export default function Footer() {
   ];
 
   const contactInfo = [
-    { icon: Mail, text: "contact@mpps.com" },
-    { icon: Phone, text: "+33 1 23 45 67 89" },
-    { icon: MapPin, text: "Paris, France" },
+    { icon: Mail, text: "bureau.diff@miageproparissaclay.com" },
+    { icon: MapPin, text: "Evry,Ile-De-France,France" },
   ];
 
   const quickLinks = [

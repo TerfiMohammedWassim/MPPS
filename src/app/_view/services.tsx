@@ -7,39 +7,39 @@ import { Link } from 'react-scroll';
 export default function Services() {
   const content = [
     {
-      title: 'Développement Web & Logiciel',
-      description: 'On vous propose des services complets pour réaliser vos projets basés sur le web. Notre équipe expérimentée vous accompagne à chaque étape, de la conception au déploiement.',
-      options: [
-        'Développement Front-End moderne avec React, Vue.js',
-        'Développement Back-End robuste avec Node.js, Python',
-        'Applications web progressives (PWA)',
-        'Intégration API et services cloud'
-      ],
-      image: '/assets/devimage.png',
-      isImageRight: true,
-    },
-    {
       title: 'Analyse des Données & Data',
-      description: 'Transformez vos données en insights actionnables. Nous utilisons des technologies de pointe pour analyser et visualiser vos données de manière efficace.',
+      description: 'gagnez en efficacité grâce à des solutions d\'intelligence artificielle adaptés à vos processus métier',
       options: [
         'Analyse de données avancée',
         'Visualisation de données interactive',
         'Machine Learning et IA',
         'Big Data Processing'
       ],
-      image: '/assets/staticimage.png',
+      image: '/public/assets/dataimage.png',
       isImageRight: false,
     },
     {
-      title: 'UI & UX Design',
-      description: 'Créez des expériences utilisateur exceptionnelles avec nos services de design. Nous combinons esthétique et fonctionnalité pour des interfaces intuitives.',
+      title: 'Développement Web & Logiciel',
+      description: 'Nous concevons des applications web et logiciels alliant ergonomie, performance et réactivité pour une expérience utilisateur optimale',
       options: [
-        'Design d\'interface utilisateur moderne',
-        'Expérience utilisateur optimisée',
-        'Prototypage et wireframing',
-        'Design système et guidelines'
+        'Developpement Front-End moderne et reactif',
+        'Developpement Back-End robuste et evolutif',
+        'Applications web progressives (PWA)',
+        'Intégration Site Wordpress et CMS',
       ],
-      image: '/assets/bussinesimage.png',
+      image: '/assets/dev.png',
+      isImageRight: true,
+    },
+    {
+      title: 'UI & UX Design',
+      description: 'Nous concevons des interfaces modernes et faciles à utiliser pour offrir la meilleure expérience à vos utilisateurs.',
+      options: [
+        'Designs attractifs et intuitifs',
+        'Creation de logo',
+        'Creation de maquettes interactives',
+        'Coherence visuelle et ergonomique',
+      ],
+      image: '/assets/ui.png',
       isImageRight: true,
     },
     {
@@ -51,7 +51,7 @@ export default function Services() {
         'Identité visuelle et branding',
         'Contenu pour réseaux sociaux'
       ],
-      image: '/assets/editimage.png',
+      image: '/assets/infography.png',
       isImageRight: false,
     },
   ];
@@ -78,7 +78,7 @@ export default function Services() {
               Solutions Numériques Innovantes
             </h1>
             <p className="max-w-2xl mx-auto text-lg text-gray-600">
-              Découvrez notre gamme complète de services numériques conçus pour propulser votre entreprise vers le succès.
+              Découvrez nos solutions qui vous permetre de maximiser votre efficacité et des couts reduit
             </p>
           </motion.div>
         </div>

@@ -157,7 +157,7 @@ export default function ContactUs() {
 
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">
-                Message
+                Description du Projet
               </label>
               <textarea
                 value={formData.message}

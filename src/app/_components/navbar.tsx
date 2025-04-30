@@ -38,7 +38,7 @@ const Navbar = () => {
                 <Link
                   key={index}
                   to={item.route}
-                  smooth={true}
+                  smooth={true} 
                   duration={500}
                   className="cursor-pointer text-primary hover:text-blue-700 transition-colors"
                 >
