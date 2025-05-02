@@ -78,7 +78,7 @@ export default function Services() {
               Solutions Numériques Innovantes
             </h1>
             <p className="max-w-2xl mx-auto text-lg text-gray-600">
-              Découvrez nos solutions qui vous permetre de maximiser votre efficacité et des couts reduit
+              Découvrez nos solutions qui vous permettront de maximiser votre efficacité et de réduire vos coûts
             </p>
           </motion.div>
         </div>
